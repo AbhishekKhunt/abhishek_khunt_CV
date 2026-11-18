@@ -10,7 +10,8 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Abhishek Khunt | Senior Unity Game Developer">
   <meta property="og:description" content="5+ years building live merge and casual mobile games with Unity and C#. 7+ live games on Google Play and the App Store.">
-  <meta property="og:image" content="assets/icons/merge-hometown.png">
+  <meta property="og:url" content="https://abhishekkhunt.github.io/abhishek_khunt_CV/">
+  <meta property="og:image" content="https://abhishekkhunt.github.io/abhishek_khunt_CV/assets/icons/merge-hometown.png">
   <meta name="theme-color" content="#0b1020">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%235b7cfa'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'>AK</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,9 +39,9 @@
       </a>
       <nav class="nav__links" id="navLinks" aria-label="Main">
         <a href="#about">About</a>
-        <a href="#skills">Skills</a>
         <a href="#games">Games</a>
         <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
         <a href="#ai">AI Workflow</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -65,10 +66,16 @@
         <h1 class="hero__title">Hi, I'm <span class="grad">Abhishek Khunt</span></h1>
         <p class="hero__role">Senior Unity Game Developer · C# · Mobile Games (Android &amp; iOS)</p>
         <p class="hero__lead">I build, ship and maintain live merge and casual mobile games – from gameplay systems and LiveOps events to SDK integrations and performance tuning – with an AI-assisted workflow that helps me deliver faster without cutting corners.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#games">View my games</a>
+          <a class="btn btn--ghost" href="assets/Abhishek_Khunt_CV.pdf" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
+            Download CV
+          </a>
+        </div>
         <ul class="stats">
           <li><strong>5+</strong><span>Years with Unity &amp; C#</span></li>
           <li><strong>7+</strong><span>Live mobile games</span></li>
-          <li><strong>2</strong><span>Platforms: Android &amp; iOS</span></li>
           <li><strong>AI</strong><span>Assisted dev workflow</span></li>
         </ul>
       </div>
@@ -79,63 +86,46 @@
       <div class="container about">
         <div class="section__head">
           <p class="kicker">About</p>
-          <h2>Building games players come back to</h2>
+          <h2 class="sr-only">About me</h2>
+          <ul class="facts">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+              <span><strong>Location</strong>Rajkot, Gujarat, India</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></svg>
+              <span><strong>Current role</strong>Senior Programmer · The App Guruz</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              <span><strong>Experience</strong>5+ years · Unity &amp; C#</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3M15.5 12h.01M18 13.5h.01"/></svg>
+              <span><strong>Focus</strong>Merge, puzzle &amp; casual mobile games</span>
+            </li>
+            <li class="facts__open">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg>
+              <span><strong>Status</strong>Open to new opportunities</span>
+            </li>
+          </ul>
         </div>
         <div class="about__body">
           <p>I'm a Senior Unity Game Developer based in <strong>Rajkot, Gujarat, India</strong>, with 5+ years of experience at <strong>The App Guruz</strong>, where I grew from Associate Programmer to Senior Programmer.</p>
           <p>I work across the full life of a live game: designing maintainable gameplay systems in Unity and C#, delivering real-time content with <strong>Addressables</strong> and <strong>Remote Config</strong>, building LiveOps events, integrating SDKs like Firebase, PlayFab, IAP, ads and FMOD, and keeping games smooth through debugging, memory profiling and build optimization.</p>
+          <p>I also implement the analytics and monetization side of games – event tracking, IAP stores, ad placements and Remote Config tuning – so the team can measure and improve retention and revenue.</p>
           <p>I use AI coding agents such as <strong>Claude Code, Cursor, GitHub Copilot and OpenAI Codex</strong> every day – and I review and test every change on real devices before it reaches players.</p>
         </div>
       </div>
     </section>
 
-    <!-- ============ SKILLS ============ -->
-    <section class="section section--alt" id="skills">
-      <div class="container">
-        <div class="section__head">
-          <p class="kicker">Skills</p>
-          <h2>Technical toolkit</h2>
-        </div>
-        <div class="skills">
-          <article class="skill-card">
-            <h3>Game Development</h3>
-            <ul class="chips"><li>Unity 3D (2D &amp; 3D)</li><li>C#</li><li>OOP</li><li>Gameplay Systems</li><li>Game Mechanics</li><li>UI Systems</li><li>Physics &amp; Collision</li></ul>
-          </article>
-          <article class="skill-card">
-            <h3>LiveOps &amp; Content</h3>
-            <ul class="chips"><li>LiveOps</li><li>Live Events</li><li>Addressables</li><li>Remote Config</li><li>Asset Management</li><li>Localization</li></ul>
-          </article>
-          <article class="skill-card">
-            <h3>SDKs &amp; Services</h3>
-            <ul class="chips"><li>Firebase</li><li>PlayFab</li><li>Analytics</li><li>In-App Purchases</li><li>Ad Networks</li><li>Authentication</li><li>FMOD</li></ul>
-          </article>
-          <article class="skill-card">
-            <h3>Performance</h3>
-            <ul class="chips"><li>Unity Profiler</li><li>Memory Profiling</li><li>Debugging</li><li>Build Optimization</li><li>Multi-Device Performance</li></ul>
-          </article>
-          <article class="skill-card">
-            <h3>Architecture &amp; Platforms</h3>
-            <ul class="chips"><li>Clean Architecture</li><li>Modular Code</li><li>Code Reviews</li><li>Android</li><li>iOS</li></ul>
-          </article>
-          <article class="skill-card skill-card--ai">
-            <h3>AI Tools &amp; Harnesses</h3>
-            <ul class="chips"><li>Claude Code</li><li>Cursor</li><li>GitHub Copilot</li><li>OpenAI Codex</li><li>ChatGPT</li><li>Claude</li><li>Agentic Coding</li><li>Context Engineering</li><li>Skills &amp; MCP</li></ul>
-          </article>
-          <article class="skill-card">
-            <h3>Tools &amp; Version Control</h3>
-            <ul class="chips"><li>Visual Studio</li><li>Git</li><li>GitLab</li></ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <!-- ============ GAMES ============ -->
-    <section class="section" id="games">
+    <section class="section section--alt" id="games">
       <div class="container">
         <div class="section__head">
           <p class="kicker">Portfolio</p>
           <h2>Games I've worked on</h2>
-          <p class="section__sub">Live titles on Google Play and the App Store. Tap a store button to try them.</p>
+          <p class="section__sub">Live titles on Google Play and the App Store, plus builds I developed. Tap a button to try them.</p>
         </div>
 
         <div class="games">
@@ -183,6 +173,22 @@
             <ul class="tags"><li>Unity</li><li>C#</li><li>LiveOps</li><li>Profiling</li></ul>
             <div class="stores">
               <a class="store" href="https://play.google.com/store/apps/details?id=com.wizardschool.magic.merge" target="_blank" rel="noopener">Google Play</a>
+              <a class="store" href="https://apps.apple.com/in/app/wizard-world-magic-merge/id6754874534" target="_blank" rel="noopener">App Store</a>
+            </div>
+          </article>
+
+          <article class="game">
+            <div class="game__top">
+              <img class="game__icon" src="assets/icons/thread-blocks.png" alt="Thread Blocks: Color Jam app icon" width="72" height="72" loading="lazy">
+              <div>
+                <h3>Thread Blocks: Color Jam</h3>
+                <p class="game__meta">Block Jam Puzzle · Senior Programmer</p>
+              </div>
+            </div>
+            <p class="game__desc">Built the complete game end to end – block-jam gameplay with obstacles and boosters, a level editor, daily tasks, VIP leaderboard, IAP, ads and Firebase.</p>
+            <ul class="tags"><li>Unity</li><li>C#</li><li>Full Codebase</li><li>Level Editor</li><li>Firebase</li></ul>
+            <div class="stores">
+              <a class="store" href="https://drive.google.com/file/d/1sCMbEeic2YFp2sDLsxYBC2EZDwnVQ-wE/view?usp=sharing" target="_blank" rel="noopener">Download APK</a>
             </div>
           </article>
 
@@ -234,21 +240,6 @@
 
           <article class="game">
             <div class="game__top">
-              <img class="game__icon" src="assets/icons/cooking-valley.png" alt="Cooking Valley app icon" width="72" height="72" loading="lazy">
-              <div>
-                <h3>Cooking Valley</h3>
-                <p class="game__meta">Cooking · Associate Programmer</p>
-              </div>
-            </div>
-            <p class="game__desc">Daily Reward, Spin Wheel and other engagement features with live tuning through Remote Config.</p>
-            <ul class="tags"><li>Unity</li><li>C#</li><li>Remote Config</li><li>Ads</li></ul>
-            <div class="stores">
-              <a class="store" href="https://apps.apple.com/us/app/cooking-valley-chef-game/id6455988834" target="_blank" rel="noopener">App Store</a>
-            </div>
-          </article>
-
-          <article class="game">
-            <div class="game__top">
               <span class="game__icon game__icon--letter" aria-hidden="true">L</span>
               <div>
                 <h3>Linker Game</h3>
@@ -282,7 +273,7 @@
     </section>
 
     <!-- ============ EXPERIENCE ============ -->
-    <section class="section section--alt" id="experience">
+    <section class="section" id="experience">
       <div class="container">
         <div class="section__head">
           <p class="kicker">Experience</p>
@@ -292,7 +283,7 @@
           <li class="timeline__item">
             <span class="timeline__dot" aria-hidden="true"></span>
             <h3>Senior Programmer</h3>
-            <p class="timeline__proj">Merge HomeTown · Tales &amp; Dragons · Wizard World</p>
+            <p class="timeline__proj">Merge HomeTown · Tales &amp; Dragons · Wizard World · Thread Blocks: Color Jam</p>
             <ul>
               <li>Built maintainable Unity and C# gameplay systems for live merge games on Android and iOS.</li>
               <li>Delivered real-time content with Addressables and Remote Config, without new app releases.</li>
@@ -300,6 +291,7 @@
               <li>Integrated FMOD audio, Firebase, analytics, IAP, ad networks, authentication and localization.</li>
               <li>Handled debugging, memory profiling and build optimization for smooth device performance.</li>
               <li>Worked closely with artists, designers, QA and producers to ship regular updates.</li>
+              <li>Built Thread Blocks: Color Jam end to end – gameplay, level editor, boosters, daily tasks, VIP leaderboard, IAP, ads and Firebase.</li>
             </ul>
           </li>
           <li class="timeline__item">
@@ -314,6 +306,50 @@
             </ul>
           </li>
         </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker">Skills</p>
+          <h2>Technical toolkit</h2>
+        </div>
+        <div class="skills">
+          <article class="skill-card">
+            <h3>Game Development</h3>
+            <ul class="chips"><li>Unity 3D (2D &amp; 3D)</li><li>C#</li><li>OOP</li><li>Gameplay Systems</li><li>Game Mechanics</li><li>UI Systems</li><li>Physics &amp; Collision</li></ul>
+          </article>
+          <article class="skill-card">
+            <h3>LiveOps &amp; Content</h3>
+            <ul class="chips"><li>LiveOps</li><li>Live Events</li><li>Addressables</li><li>Remote Config</li><li>Asset Management</li><li>Localization</li></ul>
+          </article>
+          <article class="skill-card">
+            <h3>SDKs &amp; Services</h3>
+            <ul class="chips"><li>Firebase</li><li>PlayFab</li><li>Authentication</li><li>FMOD</li><li>Push Notifications</li></ul>
+          </article>
+          <article class="skill-card">
+            <h3>Analytics &amp; Monetization</h3>
+            <ul class="chips"><li>Firebase Analytics</li><li>GameAnalytics</li><li>Adjust</li><li>Event Tracking</li><li>IAP Store &amp; Bundles</li><li>Rewarded &amp; Interstitial Ads</li><li>AppLovin MAX</li></ul>
+          </article>
+          <article class="skill-card">
+            <h3>Performance</h3>
+            <ul class="chips"><li>Unity Profiler</li><li>Memory Profiling</li><li>Debugging</li><li>Build Optimization</li><li>Multi-Device Performance</li></ul>
+          </article>
+          <article class="skill-card">
+            <h3>Architecture &amp; Platforms</h3>
+            <ul class="chips"><li>Clean Architecture</li><li>Modular Code</li><li>Code Reviews</li><li>Android</li><li>iOS</li></ul>
+          </article>
+          <article class="skill-card skill-card--ai">
+            <h3>AI Tools &amp; Harnesses</h3>
+            <ul class="chips"><li>Claude Code</li><li>Cursor</li><li>GitHub Copilot</li><li>OpenAI Codex</li><li>ChatGPT</li><li>Claude</li><li>Agentic Coding</li><li>Context Engineering</li><li>Skills &amp; MCP</li></ul>
+          </article>
+          <article class="skill-card">
+            <h3>Tools &amp; Version Control</h3>
+            <ul class="chips"><li>Visual Studio</li><li>Git</li><li>GitLab</li></ul>
+          </article>
+        </div>
       </div>
     </section>
 
@@ -395,7 +431,7 @@
           </a>
         </div>
         <div class="contact__cta">
-          <a class="btn btn--primary" href="assets/Abhishek_Khunt_CV.pdf" download>
+          <a class="btn btn--primary" href="assets/Abhishek_Khunt_CV.pdf" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16"/></svg>
             Download CV (PDF)
           </a>
